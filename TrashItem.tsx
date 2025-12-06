@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { TrashItem as TrashItemType } from '../../types';
+import { TrashItem as TrashItemType } from './types';
 
 interface TrashItemProps {
   item: TrashItemType;
