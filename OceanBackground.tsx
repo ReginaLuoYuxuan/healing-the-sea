@@ -1,10 +1,10 @@
 
 import React, { useMemo } from 'react';
 import { motion } from 'framer-motion';
-import { GamePhase, FishData } from '../../types';
-import { DisorderLines } from './DisorderLines';
+import { GamePhase, FishData } from './types';
+import DisorderLines from './DisorderLines';
 import { FishFlock } from './FishFlock';
-import { FISH_TIERS } from '../../constants';
+import { FISH_TIERS } from './constants';
 
 interface OceanBackgroundProps {
   phase: GamePhase;
