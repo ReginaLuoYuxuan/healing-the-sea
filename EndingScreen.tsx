@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ENDING_MESSAGES } from '../../constants';
-import { getOceanFact } from '../../services/geminiService';
+import { ENDING_MESSAGES } from './constants';
+import { getOceanFact } from './geminiService';
 import { Sparkles, ArrowRight } from 'lucide-react';
 
 export const EndingScreen: React.FC = () => {
