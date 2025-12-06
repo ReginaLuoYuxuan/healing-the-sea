@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { motion } from 'framer-motion';
-import { FishData, FishSpecies } from '../../types';
+import { FishData, FishSpecies } from './types';
 
 interface FishFlockProps {
   fishList: FishData[];
