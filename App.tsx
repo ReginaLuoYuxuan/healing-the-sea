@@ -1,10 +1,10 @@
 // App.tsx
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { OceanBackground } from './OceanBackground';
-import { TrashItem } from './components/Game/TrashItem';
-import { TrashBin } from './components/Game/TrashBin';
-import { RestorationBar } from './components/UI/RestorationBar';
-import { EndingScreen } from './components/UI/EndingScreen';
+import { TrashItem } from './TrashItem';
+import { TrashBin } from './TrashBin';
+import { RestorationBar } from './RestorationBar';
+import { EndingScreen } from './EndingScreen';
 import { INITIAL_TRASH_ITEMS, PHASE_THRESHOLDS } from './constants';
 import { GamePhase, OceanState, TrashItem as TrashItemType } from './types';
 import { AnimatePresence } from 'framer-motion';
