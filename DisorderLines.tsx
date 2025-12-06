@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { GamePhase } from '../../types';
+import { GamePhase } from './types';
 
 interface DisorderLinesProps {
   phase: GamePhase;
