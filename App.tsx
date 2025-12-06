@@ -1,6 +1,6 @@
 // App.tsx
 import React, { useState, useRef, useEffect, useCallback } from 'react';
-import { OceanBackground } from './components/Visuals/OceanBackground';
+import { OceanBackground } from './OceanBackground';
 import { TrashItem } from './components/Game/TrashItem';
 import { TrashBin } from './components/Game/TrashBin';
 import { RestorationBar } from './components/UI/RestorationBar';
